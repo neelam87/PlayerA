@@ -1,0 +1,9 @@
+server:
+  port: 8086
+  
+playerB:
+  url: http://localhost:8085/game/playerB/  
+
+player:
+  url: ${playerB.url}
+ 
